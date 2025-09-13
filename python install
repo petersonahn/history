@@ -1,0 +1,15 @@
+# mini-forge 설치
+https://github.com/conda-forge/miniforge/releases/tag/24.11.3-2
+설치할때 add miniforge3 to my PATH environment variable 체크
+설치 완료 후 cmd에 python 명령어 입력하면 정상적으로 설치 완료 시 packaged by conda-forge 메세지 출력됨.
+
+# vscode 설치
+설치 후 실행하고 터미널(파워쉘에서 cmd로 변경)에서 conda create -n 프로젝트 폴더명 python=3.12 명령어 입력하여 가상환경 설치.
+터미널에서 conda activate 프로젝트 폴더명 입력하여 가상환경 접속.
+우하단 base 클릭한 후 프로젝트 폴더명 클릭.(안뜨면 refresh하면 됨)
+
+구글에서 mediapipe 검색 후 첫번째 구글 링크 클릭
+좌측에서 사용하고자 하는 task 선택 후 모델 선택
+터미널에서 pip install mediapipe 입력하여 mediapipe 설치
+※ ctl+/ :  선택 전체 주석
+※ F2 : 파일명 수정
