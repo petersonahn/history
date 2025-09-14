@@ -1,0 +1,25 @@
+cursor 설치
+
+cursor mcp
+
+요구사항 정의서 md 파일로 작성해달라고 하면 작성해주니 작성된 파일을 가지고 코딩해달라고 하면 됨.
+ui.svg 만들어서 마음에 들때까지 수정 후 ui와 정의서 md파일을 가지고 만들어달라 하면 좀 더 제대로 된 프로그램 개발 가능.
+pro 요금제 기준 빠른 응답이 한달 500건으로 제한되어 있으니 최대한 한번에 처리하도록 하기.
+
+프롬프트 엔지니어링 핵심
+1. 역할 부여(ex. 너는 OO이야)
+2. 부정 조건 명시(ex. A이면 B는 아니야)
+3. 태스크 잘게 쪼개기(복잡한 요청은 단계별로 나눠서 지시. 이해하기 쉽게, 가독성 좋게)
+4. 추론 유도(CoT) : 모델이 추론 과정을 단계별로 처리하도록 유도
+5. 반복 개선
+
+영문 프롬프트 장점
+- 토큰 사용량 적음(비용, 속도 영향)
+
+
+cuda 설치
+https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_522.06_windows.exe
+
+파이토치 설치
+
+pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118
