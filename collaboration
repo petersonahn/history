@@ -15,3 +15,5 @@ product backlog -> sprint plannig -> sprint backlog -> daily scrum(팀작업) ->
 회고 (미래형 회고, 현재형 회고) -> 미래형은 프로젝트 초반, 뒤로갈수록 현재형 회고를 많이함
 jira(무거워서 사용빈도 줄어드는 추세)
 github project
+
+argoCD
